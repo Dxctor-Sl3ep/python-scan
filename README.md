@@ -99,7 +99,8 @@ incomplete scan. This per-run cap does not prevent exhausting a
 The SSH analyzer reads `/var/log/auth.log` by default. On systems that use
 `/var/log/secure`, update `AUTH_LOG_FILE` in `tools/log_analyze.py` before
 running it. Reading system authentication logs may require elevated
-permissions.
+permissions; if access is denied, run `sudo python3 -m tools.log_analyze` from
+the repository root.
 
 ## Test the POC
 

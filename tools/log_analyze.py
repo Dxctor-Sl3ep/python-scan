@@ -32,7 +32,10 @@ def analyze_ssh_logs(file_path):
         return
     except PermissionError:
         print(f"[ERROR] Permission denied when reading '{file_path}'.")
-        print("-> Run the script with administrator privileges: sudo python3 ssh_log_analyzer.py")
+        print(
+            "-> From the repository root, run with administrator privileges: "
+            "sudo python3 -m tools.log_analyze"
+        )
         return
 
     # --- DISPLAY REPORT ---

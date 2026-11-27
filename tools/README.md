@@ -24,10 +24,11 @@ IP address and targeted username. It reports a critical alert for an IP with
 five or more failures. The default input is `/var/log/auth.log`; on systems
 using `/var/log/secure`, change `AUTH_LOG_FILE` in the script.
 
-Run it with `python -m tools.log_analyze`. Reading the system log may require
-elevated permissions. `sample.log` contains generic web-server entries, not
-`sshd` authentication entries, so it is not a positive test fixture for this
-analyzer.
+Run it from the repository root with `python -m tools.log_analyze`. Reading the
+system log may require elevated permissions; in that case, run
+`sudo python3 -m tools.log_analyze` from the repository root. `sample.log`
+contains generic web-server entries, not `sshd` authentication entries, so it
+is not a positive test fixture for this analyzer.
 
 ## `virustotal_scan.py`
 
