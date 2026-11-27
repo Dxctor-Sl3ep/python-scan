@@ -1,0 +1,2 @@
+# Ansible Vault provides the ansible-vault command-line tool.
+ansible-core

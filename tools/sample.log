@@ -1,0 +1,11 @@
+2026-11-27 08:15:02 [INFO] 192.168.1.10 - GET /index.html - Status: 200
+2026-11-27 08:16:10 [WARN] 45.33.22.11 - Failed login for user admin - Status: 401
+2026-11-27 08:16:12 [WARN] 45.33.22.11 - Failed login for user admin - Status: 401
+2026-11-27 08:16:14 [WARN] 45.33.22.11 - Failed login for user root - Status: 401
+2026-11-27 08:16:15 [WARN] 45.33.22.11 - Failed login for user root - Status: 401
+2026-11-27 08:16:18 [WARN] 45.33.22.11 - Failed login for user user1 - Status: 401
+2026-11-27 08:16:20 [WARN] 45.33.22.11 - Failed login for user test - Status: 401
+2026-11-27 08:20:00 [ERROR] 192.168.1.25 - POST /api/data - Status: 500
+2026-11-27 08:22:45 [WARN] 10.0.0.5 - GET /secret - Status: 403
+2026-11-27 08:25:11 [WARN] 192.168.1.10 - GET /page-inexistante - Status: 404
+2026-11-27 08:30:00 [ERROR] 192.168.1.25 - POST /api/data - Status: 500
